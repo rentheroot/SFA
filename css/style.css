@@ -1,0 +1,87 @@
+/* color scheme */
+/* text: #1C140D */
+
+/* Import fonts from google fonts */
+@import url('https://fonts.googleapis.com/css?family=UnifrakturCook:700');
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/* Custom font */
+@font-face {
+    font-family: 'plainblacknormal';
+    src: url('Plain_Black-webfont.eot');
+    src: url('Plain_Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Plain_Black-webfont.woff2') format('woff2'),
+         url('Plain_Black-webfont.woff') format('woff'),
+         url('Plain_Black-webfont.ttf') format('truetype'),
+         url('Plain_Black-webfont.svg#plainblacknormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/* main website background color (white) */
+body{
+  background-color: #FFFFFF
+}
+
+/* adds colored shadow to navigational bar */
+.top-bar{
+  box-shadow: 0px 3px 6px 0px #1C140D;
+  
+    
+}
+
+/* positions the words "Skinner family Association" */
+.SFA{
+  padding: 7%;
+  
+}
+
+/* h1 styling */
+h1{
+    font-family: 'plainblacknormal';
+    color: #1C140D;
+    font-size: 400%;
+    padding: 3% 0% 0% 0%;
+  
+}
+
+/* h2 styling */
+h2{
+    font-size: 150%;
+    font-family: 'Raleway', sans-serif;
+    
+  
+}
+
+/* h3 styling */
+h3{
+  font-size: 125%;
+  font-family: 'Raleway', sans-serif;
+    
+}
+
+  
+  
+}
+
+/* Positions the social media sections */ 
+div.social-media{
+  padding: 4% 4% 4% 4%
+}
+
+/* makes an element the dark color */
+.dark{
+  color: #1C140D;
+}
+
+/* makes icons green with a dark outline */
+.icon-color{
+    color: #CBE86B;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #1C140D;
+
+}
