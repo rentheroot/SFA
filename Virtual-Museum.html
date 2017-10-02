@@ -12,6 +12,8 @@
 
       <link rel="stylesheet" href="css/style.css">
 
+<!--image gallery -->
+<link href="css/lightbox.css" rel="stylesheet">
   
 </head>
     
@@ -30,10 +32,40 @@ $.get("navigation.html", function(data){
 
 <!-- Start of Content -->
 <h1 class = "text-center">The Skinner Virtual Museum</h1>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <a href="Documents-Gallery.html">
+          <img src="img/Gallery/Gallery_Images/cat-pet-animal-domestic-104827.jpeg" alt="alt text here">
+          Gallery 1
+      </a>    
+    </div>
+    <div class="col">
+        <a href="Documents-Gallery.html">
+      <img src="img/Gallery/Gallery_Images/cat-pet-animal-domestic-104827.jpeg" alt="alt text here">
+      Gallery 2
+        </a>
+    </div>
+     <div class="col">
+         <a href="Documents-Gallery.html">
+      <img src="img/Gallery/Gallery_Images/cat-pet-animal-domestic-104827.jpeg" alt="alt text here">
+      Gallery 3
+         </a>
+    </div> 
+  </div>
+</div>   
     
+
+<!-- Start of Documents gallery -->
+<div>
+  <a class="example-image-link" href="img/Gallery/Full_sized/1940_census_form_large.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="img/Gallery/Thumbnail/1940_census_form_large_tn.jpg" alt=""/></a>
+</div>    
 <!-- End of Content -->
     
  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
-   
+
+<!-- Image Gallery -->    
+<script src="js/lightbox.js"></script>
 </body>
