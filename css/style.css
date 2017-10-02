@@ -56,6 +56,12 @@ body{
     
     
 }
+
+/* Caption margins */
+.margincap{
+    
+    margin-bottom: 2%
+}
 /* h1 styling */
 h1{
     font-family: 'plainblacknormal';
@@ -78,10 +84,19 @@ h2{
 h3{
   font-size: 125%;
   font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  border-bottom: groove;
+  margin-left: 20%;
+  margin-right: 20%;
     
 }
 
-  
+/* p styling */
+p{
+    
+  margin-left: 21%;
+  margin-right: 21%;
+}  
   
 }
 
