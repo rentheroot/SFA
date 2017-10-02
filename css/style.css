@@ -1,5 +1,7 @@
 /* color scheme */
 /* text: #1C140D */
+/* #ff6533 */
+/*  #555555*/
 
 /* Import fonts from google fonts */
 @import url('https://fonts.googleapis.com/css?family=UnifrakturCook:700');
@@ -36,10 +38,24 @@ body{
 
 /* positions the words "Skinner family Association" */
 .SFA{
-  padding: 7%;
+  padding: 1%;
+
   
 }
 
+/*make the box for the SFA */
+.SFAcolors{
+    padding: 0.2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+    background-color: #ff6533;
+    box-shadow: 10px 10px #555555;
+    
+    
+}
 /* h1 styling */
 h1{
     font-family: 'plainblacknormal';
@@ -53,6 +69,7 @@ h1{
 h2{
     font-size: 150%;
     font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     
   
 }
