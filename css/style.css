@@ -98,22 +98,19 @@ p{
   margin-right: 21%;
 }  
   
+/* Email/Queries formatting */
+.email-query{
+    
+    border-bottom: groove;
+    border-top: groove;
+    margin-left: 19%;
+    margin-right: 19%;
 }
 
-/* Positions the social media sections */ 
-div.social-media{
-  padding: 4% 4% 4% 4%
+.email-query-links{
+    font-size: 140%;
 }
 
-/* makes an element the dark color */
-.dark{
-  color: #1C140D;
-}
 
-/* makes icons green with a dark outline */
-.icon-color{
-    color: #CBE86B;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #1C140D;
 
-}
+
