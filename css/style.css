@@ -94,8 +94,8 @@ h3{
 /* p styling */
 p{
     
-  margin-left: 21%;
-  margin-right: 21%;
+  margin-left: 10%;
+  margin-right: 10%;
 }  
   
 /* Email/Queries formatting */
@@ -103,8 +103,8 @@ p{
     
     border-bottom: groove;
     border-top: groove;
-    margin-left: 19%;
-    margin-right: 19%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 .email-query-links{
