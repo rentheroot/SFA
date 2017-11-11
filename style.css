@@ -89,6 +89,7 @@ h2{
 /* h3 styling */
 h3{
   font-size: 125%;
+  padding-bottom:1%;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   border-bottom: groove;
