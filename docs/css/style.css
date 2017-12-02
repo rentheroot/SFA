@@ -23,6 +23,9 @@
 }
 
 
+html{
+  font-size:14px;
+}
 
 /* main website background color (white) */
 body{
@@ -32,15 +35,15 @@ body{
 /* adds colored shadow to navigational bar */
 .top-bar{
   box-shadow: 0px 3px 6px 0px #1C140D;
-  
-    
+
+
 }
 
 /* positions the words "Skinner family Association" */
 .SFA{
   padding: 1%;
 
-  
+
 }
 
 /*make the box for the SFA */
@@ -48,18 +51,23 @@ body{
     padding: 0.2%;
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: 1%;
+    margin-top: 2%;
     margin-bottom: 1%;
-    
+    border-radius:10px;
     background-color: #ff6533;
-    box-shadow: 10px 10px #555555;
-    
-    
+    box-shadow: 10px 10px 10px 8px #555555;
+    margin-bottom:2rem;
 }
 
+@media only screen and (max-width: 480px){
+.SFAcolors{
+  padding:2%;
+margin:0%;
+}
+}
 /* Caption margins */
 .margincap{
-    
+
     margin-bottom: 2%
 }
 /* h1 styling */
@@ -68,39 +76,52 @@ h1{
     color: #1C140D;
     font-size: 400%;
     padding: 3% 0% 0% 0%;
-  
+
 }
 
-/* h2 styling */
+/* h2 styling
 h2{
     font-size: 150%;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
-    
-  
-}
+}*/
 
 /* h3 styling */
 h3{
   font-size: 125%;
+  padding-bottom:1%;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   border-bottom: groove;
   margin-left: 20%;
   margin-right: 20%;
-    
+  margin-top:5%;
 }
 
+@media only screen and (max-width: 480px){
+h3{
+  margin-top:10%;
+}
+}
 /* p styling */
-p{
-    
-  margin-left: 10%;
-  margin-right: 10%;
-}  
-  
+.paragraph{
+  margin-left: 18%;
+  margin-right: 18%;
+    margin-top:1%;
+  /*border:1px red solid;*/
+}
+
+@media only screen and (max-width: 480px){
+  .paragraph{
+    margin-top:2%;
+    margin-left: 1%;
+    margin-right:1%;
+  }
+}
+
 /* Email/Queries formatting */
 .email-query{
-    
+
     border-bottom: groove;
     border-top: groove;
     margin-left: 1%;
@@ -110,30 +131,3 @@ p{
 .email-query-links{
     font-size: 140%;
 }
-
-.polaroid-images a
-{
-	background: white;
-	display: inline;
-	float: left;
-	margin: 0 15px 30px;
-	padding: 10px 10px 25px;
-	text-align: center;
-	text-decoration: none;
-	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	-moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
-	box-shadow: 0 4px 6px rgba(0,0,0,.3);
-	-webkit-transition: all .15s linear;
-	-moz-transition: all .15s linear;
-	transition: all .15s linear;
-	z-index:0;
-        position:relative;
-}
-/* navigation bar darker color */
-.dark-nav{
-    color: #A03E1F;
-}
-
-
-
-
